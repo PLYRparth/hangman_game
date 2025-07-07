@@ -84,8 +84,6 @@ public class Main {
                         System.out.println("Level " + level + " is cleared");
                         System.out.println("_____________________");
                         result = 'w';
-                        lose = 0;
-
                     }
                 }
             }
