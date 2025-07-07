@@ -27,16 +27,23 @@ java -cp src Main
 # 🎮 Gameplay Instructions
 
 You will be presented with a word that only shows its vowels.
+
 Type one letter at a time to guess the word.
+
 You have 6 lives — each incorrect guess draws more of the hangman.
+
 Clear all 10 levels to win the game.
+
 Background music plays continuously during gameplay.
 
 # 🔊 Audio Integration
 
 This game uses Java's built-in javax.sound.sampled package to:
+
 Loop background music using Clip.LOOP_CONTINUOUSLY
+
 Trigger sound effects during specific game events
+
 - If you encounter any issues playing sounds, ensure your audio files are valid .wav format and supported by Java Sound API.
 
 # 📜 License
